@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full w-full text-foreground bg-background font-roboto;
+}
+
+.pink-gradient {
+  background: linear-gradient(90deg, #f4e4ff 0%, #fff2dd 100%);
+}
+
+.mix-gradient {
+  background-color: #a9c9ff;
+  background-image: linear-gradient(
+    90deg,
+    #fdb83b 0%,
+    #b99dcf 50%,
+    #8f01ff 65%,
+    #fdb83b 100%
+  );
+}
+
+.hero-gradient {
+  background-color: #ffbbec;
+  background-image: linear-gradient(
+    90deg,
+    #fdb83b 0%,
+    #b99dcf 50%,
+    #8f01ff 65%,
+    #fdb83b 100%
+  );
+}
+
+.info-gradient {
+  background-color: #ffbbec;
+  background-image: linear-gradient(
+    90deg,
+    #fdb83b 25%,
+    #8f01ff 50%,
+    #aab2ed 75%,
+    #b99dcf 100%
+  );
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #8f01ff 0%, #fdb83b 100%);
+}
+
+.text-clip {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.scroll-mask {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-mask::before,
+.scroll-mask::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.scroll-mask::before {
+  left: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.scroll-mask::after {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.swiper-wrapper {
+  transition-timing-function: cubic-bezier(0.33, 1, 0.68, 1);
+}

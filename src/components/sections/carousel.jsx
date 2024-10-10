@@ -43,7 +43,7 @@ function Carousel() {
                       delay: 0.5,
                       duration: 4.5,
                     }}
-                    className="max-w-lg pb-2 text-center mx-auto font-bold text-3xl lg:text-6xl"
+                    className="max-w-lg pb-2 text-center mx-auto font-bold text-2xl sm:text-3xl lg:text-6xl"
                   >
                     &#34;{card.text}&#34;
                   </motion.h3>

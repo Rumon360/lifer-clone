@@ -8,7 +8,7 @@ function Footer() {
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "-110%"]);
 
   return (
-    <section ref={ref} className="w-full h-[200vh] relative">
+    <section ref={ref} className="w-full h-[200vh] px-2 sm:px-0 relative ">
       <div className="h-screen flex justify-center items-end pb-0 max-w-[1140px] mx-auto w-full sticky top-0 left-0 right-0">
         <div className="h-[60vh] flex justify-center items-center w-full relative">
           <div id="main-footer" className="w-full h-full">
@@ -17,7 +17,7 @@ function Footer() {
                 <img src="/logo.svg" alt="logo" className="size-14" />
               </div>
               <div className="flex flex-col items-center gap-10">
-                <h2 className="text-5xl font-medium max-w-lg mx-auto text-center">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium max-w-lg mx-auto text-center">
                   Putting Your Health First,{" "}
                   <span className="inline-block relative">
                     Always

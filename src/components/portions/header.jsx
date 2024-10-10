@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Header({ progress }) {
   return (
-    <header className="fixed top-0 bg-transparent py-[26px] z-50 w-full">
+    <header className="fixed top-0 bg-transparent py-4 md:py-[26px] z-50 w-full">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

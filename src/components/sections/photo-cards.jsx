@@ -80,16 +80,16 @@ function PhotoCards() {
           <div className="flex flex-col items-center gap-8">
             <div className="flex flex-col items-center gap-8">
               <div className="flex flex-col items-center gap-4">
-                <h2 className="text-[3rem] lg:text-[3.5rem] font-bold leading-none max-w-lg mx-auto text-center">
+                <h2 className="text-[2rem] sm:text-[3rem] lg:text-[3.5rem] font-bold leading-none max-w-lg mx-auto text-center">
                   Managing your diabetes has never been{" "}
                   <span className="inline-block relative">
                     easier
-                    <div className="absolute -bottom-[10%]">
+                    <div className="absolute hidden sm:block -bottom-[10%]">
                       <GradientSvg />
                     </div>
                   </span>
                 </h2>
-                <p className="text-base max-w-md text-zinc-500 mx-auto text-center">
+                <p className="text-sm px-2 sm:px-0 sm:text-base max-w-md text-zinc-500 mx-auto text-center">
                   Self-managing your diabetes can be tough… let us make it easy.
                   Start using a CGM and get live insights from the medical team
                   in your pocket.

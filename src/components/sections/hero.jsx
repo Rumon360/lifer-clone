@@ -28,7 +28,7 @@ function Hero() {
           <div className="">
             <h3
               className={
-                "text-6xl lg:text-9xl mx-auto leading-[1.1] font-bold text-center"
+                "text-4xl sm:text-5xl md:text-6xl lg:text-9xl mx-auto leading-[1.1] font-bold text-center"
               }
             >
               <span className="block overflow-hidden">
@@ -63,7 +63,7 @@ function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="text-base text-gray-600 max-w-md mx-auto text-center"
+            className="text-sm sm:text-base text-gray-600 max-w-sm sm:max-w-md mx-auto text-center"
           >
             Self-managing your diabetes can be tough… let us make it easy. Start
             using a CGM and get live insights from the medical team in your
@@ -81,14 +81,14 @@ function Hero() {
             initial={{ opacity: 0, y: "10%" }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
-            className="flex flex-col gap-4 items-center text-base lg:text-lg max-w-xl font-medium text-center mx-auto"
+            className="flex flex-col gap-4 items-center text-sm sm:text-base lg:text-lg max-w-sm px-2 sm:px-0 sm:max-w-md md:max-w-xl font-medium text-center mx-auto"
           >
             <p>
               “Within just one week, we had identified the problem, tested a
               solution and validated the results. And I did it all by simply
               messaging with my care team within the Steady app.”
             </p>
-            <p className="text-gray-600 text-sm font-normal">
+            <p className="text-gray-600 text-xs sm:text-sm font-normal">
               Parteek, November 2019
             </p>
             <div className="flex gap-2 items-center">

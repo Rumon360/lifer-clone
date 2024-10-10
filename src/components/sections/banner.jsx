@@ -12,7 +12,7 @@ function Banner() {
           alt=""
           className="h-full w-full object-cover object-center"
         />
-        <div className="absolute flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between p-6 lg:p-16 inset-0 w-full h-full bg-white/10">
+        <div className="absolute flex flex-col lg:flex-row gap-4 lg:gap-0 justify-between p-6 md:p-10 lg:p-16 inset-0 w-full h-full bg-white/10">
           <div className="flex gap-4 lg:gap-0 flex-col h-full justify-between">
             <HeadingAnimationText
               textLines={[
@@ -20,14 +20,16 @@ function Banner() {
                 "against the diabetes",
                 "epidemic",
               ]}
-              className={"text-3xl lg:text-5xl font-semibold leading-[1.2]"}
+              className={
+                "text-2xl sm:text-3xl lg:text-5xl font-semibold leading-[1.2]"
+              }
             />
             <div className="flex items-center gap-4">
               <motion.button
                 initial="initial"
                 animate="initial"
                 whileHover="animate"
-                className="px-6 py-4 text-base font-medium rounded-2xl bg-white hover:bg-accent transition ease-in-out duration-500"
+                className="px-4 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-medium rounded-2xl bg-white hover:bg-accent transition ease-in-out duration-500"
               >
                 <TextSplitting>Book.a.FREE.Call</TextSplitting>
               </motion.button>
@@ -35,7 +37,7 @@ function Banner() {
                 initial="initial"
                 animate="initial"
                 whileHover="animate"
-                className="px-6 py-4 text-base font-medium rounded-2xl bg-zinc-300 hover:bg-zinc-200 transition ease-in-out duration-500"
+                className="px-4 py-3 sm:px-6 sm:py-4 text-sm sm:text-base font-medium rounded-2xl bg-zinc-300 hover:bg-zinc-200 transition ease-in-out duration-500"
               >
                 <TextSplitting>Share.your.story</TextSplitting>
               </motion.button>
@@ -52,7 +54,7 @@ function Banner() {
                   <ArrowDownRight className="text-green-500 size-5" />
                 </div>
                 <div className="flex items-end gap-1.5">
-                  <p className="text-4xl leading-none font-bold text-green-500 tracking-tighter">
+                  <p className="text-3xl sm:text-4xl leading-none font-bold text-green-500 tracking-tighter">
                     4.4
                   </p>
                   <p className="text-xs font-light leading-none -translate-y-1">
@@ -71,7 +73,7 @@ function Banner() {
                   <ArrowDown className="text-rose-500 size-5" />
                 </div>
                 <div className="flex items-end gap-1.5">
-                  <p className="text-4xl leading-none font-extrabold text-rose-500 tracking-tighter">
+                  <p className="text-3xl sm:text-4xl leading-none font-extrabold text-rose-500 tracking-tighter">
                     72
                   </p>
                   <p className="text-xs font-light leading-none -translate-y-1">

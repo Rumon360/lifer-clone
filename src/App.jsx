@@ -28,7 +28,7 @@ function App() {
   if (loading) return <Loader />;
 
   return (
-    <div ref={containerRef} className="w-full h-full relative">
+    <div ref={containerRef} className="w-full h-full relative ">
       <Header progress={scrollYProgress} />
       <Hero />
       <SliderSection />

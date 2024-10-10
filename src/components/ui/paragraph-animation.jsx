@@ -16,7 +16,7 @@ function ParagraphAnimation({ value }) {
     <p
       ref={elementRef}
       className={cn(
-        "text-4xl lg:text-6xl flex flex-wrap font-semibold -leading-[4px]"
+        "text-3xl sm:text-4xl lg:text-6xl flex flex-wrap font-semibold -leading-[4px]"
       )}
     >
       {words.map((word, index) => {

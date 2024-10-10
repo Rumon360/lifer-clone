@@ -23,10 +23,10 @@ function HeroButton() {
     >
       <div className="flex relative gap-3 items-center w-full h-full bg-white rounded-2xl px-8 lg:px-16 py-4">
         <div className="relative">
-          <Sparkle className="absolute group-hover:rotate-[180deg] duration-1000 ease-in-out transition -top-1 left-4 size-[11px] text-purple-500 fill-purple-500" />
+          <Sparkle className="absolute group-hover:rotate-[180deg] duration-1000 ease-in-out transition -top-1 left-4 size-[9px] sm:size-[11px] text-purple-500 fill-purple-500" />
           <Sparkle className="text-purple-500 fill-purple-500 group-hover:rotate-[180deg] duration-1000 ease-in-out transition" />
         </div>
-        <div className="relative overflow-hidden leading-none text-base lg:text-lg font-medium">
+        <div className="relative overflow-hidden leading-none text-sm sm:text-base lg:text-lg font-medium">
           <div>
             {"Start.The.4-Week.Program".split("").map((l, i) => (
               <motion.span

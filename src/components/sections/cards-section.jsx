@@ -42,7 +42,7 @@ function CardsSection() {
             className="border transition ease-in-out duration-500 hover:bg-accent cursor-pointer flex flex-col justify-between w-full p-6 gap-6 lg:gap-0 lg:aspect-square rounded-xl"
             key={card.id}
           >
-            <h3 className="text-5xl lg:text-7xl">{card.title}</h3>
+            <h3 className="text-4xl sm:text-5xl lg:text-7xl">{card.title}</h3>
             <p className="text-base text-zinc-500">{card.desc}</p>
           </div>
         ))}

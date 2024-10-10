@@ -3,14 +3,14 @@ import HeadingAnimationText from "../ui/heading-animation";
 
 function Results() {
   return (
-    <section className="w-full h-full py-20 lg:py-40 relative">
-      <div className="w-full flex flex-col lg:flex-row items-start gap-4 justify-between p-14 max-w-[1140px] mx-auto relative rounded-2xl border">
+    <section className="w-full h-full px-2 sm:px-0 py-20 lg:py-40 relative">
+      <div className="w-full flex flex-col lg:flex-row items-start gap-4 justify-between p-6 sm:p-10 md:p-14 max-w-[1140px] mx-auto relative rounded-2xl border">
         <div className="flex gap-4 lg:gap-0 lg:h-[calc(100vh-1rem)] relative flex-col justify-between">
           <HeadingAnimationText
             textLines={["Real results", "and situations"]}
           />
           <div className="">
-            <p className="text-zinc-500 text-base max-w-xs">
+            <p className="text-zinc-500 text-sm sm:text-base max-w-sm sm:max-w-xs">
               Low blood glucose Use powerful insights of a CGM combined with
               real-time coaching to achieve meaningful goals.
             </p>
@@ -47,7 +47,9 @@ function Results() {
               <div className="w-full flex justify-between items-center py-3 px-6 mx-auto max-w-[calc(100%-4rem)] bg-white rounded-full">
                 <div className="flex gap-4 items-center">
                   <ArrowDownRight className="size-5 text-[#8f01ff]" />
-                  <p className="text-lg font-medium">Low blood glucose</p>
+                  <p className="text-sm sm:text-base md:text-lg font-medium">
+                    Low blood glucose
+                  </p>
                 </div>
                 <div className="rounded-full bg-[#F4F4F5] p-2">
                   <ArrowRight className="size-4" />
